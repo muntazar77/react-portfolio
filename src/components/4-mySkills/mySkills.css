@@ -1,0 +1,20 @@
+.skills{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+padding: 5px;
+
+
+}
+.skill{
+    padding: 10px;
+  background-color: #a1a1aa;
+  border-radius: 10px;
+  margin: 5px 10px;
+}
+
+ .title {
+    font-size: 2.1rem;
+    color: var(--title);
+    margin-bottom: 1rem;
+  }

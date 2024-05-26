@@ -36,19 +36,19 @@ const Header = () => {
           </li>
 
           <li>
-            <a href="">Articles</a>
-          </li>
-          <li>
             <a href="#projects">Projects</a>
           </li>
-        
+          <li>
+            <a href="#mySkills">My Skills</a>
+          </li>
           <li>
             <a href="#contact">Contact</a>
           </li>
         </ul>
       </nav>
 
-      <button
+        <div className="flex">
+        <button
         onClick={() => {
           // Send value to LS
           localStorage.setItem(
@@ -67,6 +67,9 @@ const Header = () => {
           <span className="icon-sun"> </span>
         )}
       </button>
+
+      <button className="downlod-btn flex"> Downlod My CV</button>
+        </div>
 
       {showModal && (
         <div className="fixed">

@@ -148,6 +148,24 @@ header .fixed ul.modal li:last-child {
 header .fixed ul.modal li a {
   font-size: 1rem;
 }
+header .downlod-btn{
+  background-color: var(--bgHeader);
+  padding: 0.77rem 1.6rem;
+  border-radius: 55px;
+  box-shadow: 1px 1px 40px #2323242a;
+  color: var(--title);
+  opacity: 0.9;
+  font-size: 0.88rem;
+  font-weight: 500;
+  margin-left: 10px;
+
+}
+header .downlod-btn:hover{
+  color: var(--blue);
+  opacity: 1;
+  font-size: 0.9rem;
+  background-color: aliceblue;
+}
 
 /* =====================================
   4- Responsive Design (media query)

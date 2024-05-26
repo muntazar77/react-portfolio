@@ -177,3 +177,8 @@ html {
     font-size: 1rem;
   }
 }
+
+.title-section{
+  text-align: center;
+    margin-bottom: 2rem;
+  }
