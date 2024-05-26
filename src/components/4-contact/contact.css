@@ -86,7 +86,7 @@ section.contact-us .submit:hover {
 
 
 @media (max-width: 1250px) {
-  section.contact-us  .contact-animation{display: none;}
+  section.contact-us  .contact-animation{display: none; }
 
 }
 

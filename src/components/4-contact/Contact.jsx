@@ -5,10 +5,13 @@ import doneAnimation from "../../animation/done.json";
 import contactAnimation from "../../animation/contact.json";
 
 const Contact = () => {
-  const [state, handleSubmit] = useForm("xrgvvdlo");
+  const [state, handleSubmit] =useForm("xjvndjwb");
 
   return (
-    <section className="contact-us">
+    <section className="contact-us" id="contact">
+   
+
+      <div className="title-section">
       <h1 className="title">
         <span className="icon-envelope"> </span>
         Contact us
@@ -17,8 +20,9 @@ const Contact = () => {
         Contact us for more information and Get notified when I publish
         something new.
       </p>
+      </div>
 
-      <div style={{ justifyContent: "space-between" }} className="flex">
+      <div style={{ justifyContent: "space-around", }} className="flex">
         <form onSubmit={handleSubmit} className="">
           <div className="flex">
             <label htmlFor="email">Email Address:</label>

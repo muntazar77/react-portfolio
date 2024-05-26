@@ -150,3 +150,7 @@ main section.right-section.flex {
     font-size: 0.9rem;
   }
 }
+.title-section{
+text-align: center;
+  margin-bottom: 2rem;
+}
