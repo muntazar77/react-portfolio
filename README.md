@@ -1,4 +1,3 @@
-
 <!-- Table of Contents -->
 <details>
 
@@ -80,7 +79,11 @@ Here is the folder structure of this app.
 
 ## :gear: Tech Stack
 
-[![React JS](https://skillicons.dev/icons?i=react "React JS")](https://react.dev/ "React JS") [![Vite JS](https://skillicons.dev/icons?i=vite "Vite JS")](https://vitejs.dev/ "Vite JS") [![Typescript](https://skillicons.dev/icons?i=ts "Typescript")](https://www.typescriptlang.org/ "Typescript") [![Tailwind CSS](https://skillicons.dev/icons?i=tailwind "Tailwind CSS")](https://tailwindcss.com/ "Tailwind CSS") [![Netlify](https://skillicons.dev/icons?i=netlify "Netlify")](https://netlify.app/ "Netlify")
+
+
+- React.js
+- Vite
+- formspree/react
 
 ## :wrench: Stats
 
@@ -105,4 +108,3 @@ You can also give this repository a star to show more people and they can use th
 
 
 <br />
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
