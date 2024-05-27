@@ -68,14 +68,11 @@ Here is the folder structure of this app.
 
 
 ## :camera: Screenshots:
+![Screenshot 2024-05-27 at 19-00-01 Muntadher Attar](https://github.com/muntazar77/react-portfolio/assets/127090047/79430bff-0e77-4cbf-9d80-83eff4bf4196)
 
-![Showcase your skills](/.github/images/img1.png "Showcase your skills")
+![Screenshot 2024-05-27 at 19-00-17 Muntadher Attar](https://github.com/muntazar77/react-portfolio/assets/127090047/b1dbe82f-073a-477f-ba0e-932f7a7b11d0)
 
-![Showcase your projects](/.github/images/img2.png "Showcase your projects")
-
-![Modern UI/UX](/.github/images/img3.png "Modern UI/UX")
-
-![Functional Contact form](/.github/images/img4.png "Functional Contact form")
+![Screenshot 2024-05-27 at 19-00-29 Muntadher Attar](https://github.com/muntazar77/react-portfolio/assets/127090047/8d577fb6-d86f-4a87-91a1-2cf1916164ac)
 
 ## :gear: Tech Stack
 
