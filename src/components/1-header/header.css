@@ -148,6 +148,25 @@ header .fixed ul.modal li:last-child {
 header .fixed ul.modal li a {
   font-size: 1rem;
 }
+
+
+/* =====================================
+  4- Responsive Design (media query)
+======================================== */
+@media (width < 700px) {
+  header.flex nav {
+    display: none;
+  }
+
+  header button.menu {
+    display: block;
+  }
+}
+
+
+/* =====================================
+  downlod-btn
+======================================== */
 header .downlod-btn{
   background-color: var(--bgHeader);
   padding: 0.77rem 1.6rem;
@@ -166,16 +185,27 @@ header .downlod-btn:hover{
   font-size: 0.9rem;
   background-color: aliceblue;
 }
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
 
-/* =====================================
-  4- Responsive Design (media query)
-======================================== */
-@media (width < 700px) {
-  header.flex nav {
-    display: none;
-  }
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #a1a1aa86;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
 
-  header button.menu {
-    display: block;
-  }
+.dropdown-content a {
+  color: rgb(255, 255, 255);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }

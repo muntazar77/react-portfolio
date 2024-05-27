@@ -14,7 +14,7 @@ const Contact = () => {
       <div className="title-section">
       <h1 className="title">
         <span className="icon-envelope"> </span>
-        Contact us
+        Contact me
       </h1>
       <p className="sub-title">
         Contact us for more information and Get notified when I publish

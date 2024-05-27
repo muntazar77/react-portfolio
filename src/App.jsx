@@ -2,8 +2,9 @@ import Hero from "./components/2-hero/Hero";
 import Header from "./components/1-header/Header";
 import Main from "./components/3-main/Main";
 import Myskills from "./components/4-mySkills/mySkills";
-import Contact from "./components/5-contact/Contact";
-import Footer from "./components/6-footer/Footer";
+import Experience from "./components/5-experience/experience";
+import Contact from "./components/6-contact/Contact";
+import Footer from "./components/7-footer/Footer";
 import { useEffect, useState } from "react";
 
 function App() {
@@ -27,6 +28,8 @@ function App() {
       <Main />
       <div className="divider" />
       <Myskills />
+      <div className="divider" />
+      {/* <Experience/> */}
       <div className="divider" />
 
       <Contact />
