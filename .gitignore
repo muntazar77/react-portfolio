@@ -14,7 +14,7 @@ dist-ssr
 .firebaserc
 firebase.json
 .firebase
-README.md
+# README.md
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
