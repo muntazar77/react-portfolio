@@ -70,11 +70,11 @@ const Main = () => {
           </button>
           <button
             onClick={() => {
-              handleClick("node");
+              handleClick("php");
             }}
-            className={currentActive === "node" ? "active" : null}
+            className={currentActive === "php" ? "active" : null}
           >
-            Node & Express
+           Php & Laravel
           </button>
         </section>
 
@@ -90,22 +90,25 @@ const Main = () => {
                   key={item.imgPath}
                   className="  card"
                 >
-                  <img width={266} src={item.imgPath} alt="" />
-
+                  <a href={`${item.liveUrl}`} target="_blank" rel="noopener noreferrer">
+                    <img width={266} src={item.imgPath} alt="" />
+                    </a>
                   <div style={{ width: "266px" }} className="box">
-                    <h1 className="title">{item.projectTitle}</h1>
+                    <h3 className="title">{item.projectTitle}</h3>
                     <p className="sub-title">
                       Lorem ipsum dolor sit amet consectetur elit adipisicing .
                       Ex tempore dolor in, accusantium laudantium accusamus.
                     </p>
-
+                
                     <div className="flex icons">
                       <div style={{ gap: "11px" }} className="flex">
-                        <div className="icon-link"></div>
-                        <div className="icon-github"></div>
+                       <a href={ `${item.githubUrl}`} target="_blank" rel="noopener noreferrer"><div className="icon-github"></div> </a>
+                       <a href={ `${item.liveUrl}`} target="_blank" rel="noopener noreferrer">  <div className="icon-link"></div> </a>
+                        
+                      
                       </div>
 
-                      <a className="link flex" href="">
+                      <a className="link flex" href={`${item.githubUrl}`} target="_blank" rel="noopener noreferrer">
                         more
                         <span
                           style={{ alignSelf: "end" }}
