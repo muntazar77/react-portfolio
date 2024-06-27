@@ -71,8 +71,8 @@ const Header = () => {
     <button className="dropbtn downlod-btn ">Download my CV</button>
     <div className="dropdown-content">
       <ul>
-        <li><a href="cv/Muntadher-en.pdf" download="cv/Muntadher-en.pdf">English</a></li>
-        <li><a href="cv/Muntadher-german.pdf" download="cv/Muntadher-german.pdf">German (deutsch)</a></li>
+        <li><a href="cv/Muntadher-en.pdf" download="cv/Muntadher-cv-en.pdf">English</a></li>
+        <li><a href="cv/Muntadher-german.pdf" download="cv/Muntadher-cv-de.pdf">German (deutsch)</a></li>
         {/* <li><a href="path_to_your_french_cv.pdf" download="Your_CV_Name_French.pdf">Arabic</a></li> */}
        
       </ul>
