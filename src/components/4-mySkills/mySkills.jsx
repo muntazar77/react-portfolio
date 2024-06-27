@@ -55,7 +55,8 @@ const Myskills = () => {
 
 
 </ul>
-      </section>
+      </section><br /><br /><br />
+
         {/* My language */}
       <section className="mySkills" id="mySkills">
         <div className="title-section">

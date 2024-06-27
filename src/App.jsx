@@ -30,7 +30,7 @@ function App() {
       <Myskills />
       <div className="divider" />
       {/* <Experience/> */}
-      <div className="divider" />
+      {/* <div className="divider" /> */}
 
       <Contact />
       <div className="divider" />
