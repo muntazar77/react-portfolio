@@ -14,12 +14,20 @@ export const myProjects = [
     liveUrl:"https://6655b9421edda6e58d0b19f7--muno-one.netlify.app/"
   },
   {
-    projectTitle: "Muno css project",
-    category: ["css","js"],
-    imgPath: "./images/3.png",
-    githubUrl:"https://github.com/muntazar77/muno-template-two",
-    liveUrl:"https://muno-two.netlify.app/"
+    projectTitle: "Dashboard Neumorphic",
+    category: ["js","css"],
+    imgPath: "./images/neumorphic-dashboard.png",
+    githubUrl:"https://github.com/muntazar77/Dashboard-soft-design",
+    liveUrl:"https://dashboard-soft.netlify.app/"
   },
+  { 
+    projectTitle: "newsflow--management-system",
+    category: ["react"],
+    imgPath: "./images/newsflow.png",
+    githubUrl:"https://github.com/muntazar77/newsflow--management",
+    liveUrl:"https://newsflow-management.vercel.app/"
+  },
+
   
   {
     projectTitle: "Soft blog project",
@@ -40,7 +48,7 @@ export const myProjects = [
     category: ["css"],
     imgPath: "./images/6.png",
     githubUrl:"https://github.com/muntazar77/library-website",
-    liveUrl:"https://6655f23caa5ac618de78827f--library-website1.netlify.app/"
+    liveUrl:"https://library-website1.netlify.app/"
   },
   {
     projectTitle: "redux-toolkit project",
@@ -48,6 +56,13 @@ export const myProjects = [
     imgPath: "./images/7.jpeg",
     githubUrl:"https://github.com/muntazar77/redux-toolkit-app/",
     liveUrl:"https://github.com/muntazar77/redux-toolkit-app/"
+  },
+  {
+    projectTitle: "Weather app project",
+    category: ["js","css"],
+    imgPath: "./images/weather.png",
+    githubUrl:"https://github.com/muntazar77/Neumorphic-Weather-Ai",
+    liveUrl:"https://github.com/muntazar77/Neumorphic-Weather-Ai"
   },
   {
     projectTitle: "Laravel blog project",
@@ -76,6 +91,13 @@ export const myProjects = [
     imgPath: "./images/10.png",
     githubUrl:"https://github.com/muntazar77/e-commerce-react",
     liveUrl:"https://github.com/muntazar77/e-commerce-react"
+  },
+    {
+    projectTitle: "Muno css project",
+    category: ["css","js"],
+    imgPath: "./images/3.png",
+    githubUrl:"https://github.com/muntazar77/muno-template-two",
+    liveUrl:"https://muno-two.netlify.app/"
   },
 ];
 

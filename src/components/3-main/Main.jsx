@@ -66,7 +66,7 @@ const Main = () => {
             }}
             className={currentActive === "react" ? "active" : null}
           >
-            React & MUI
+            React & Next.js
           </button>
           <button
             onClick={() => {
