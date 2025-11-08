@@ -54,7 +54,6 @@ Here is the folder structure of this app.
     |-- index.css
     |-- main.tsx
   |- .eslintrc
-  |- .gitignore
   |- index.html
   |- package-lock.json
   |- package.json
